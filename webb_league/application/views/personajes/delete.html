@@ -1,0 +1,25 @@
+$def with(datos)
+<a href="/"><h1>Delete</h1></a>
+
+
+<form method="POST">
+  <label for="nombre">Nombre del campeon</label>
+  <input type="text" readonly="true" value="$datos.nombre" id="nombre" name="nombre">
+  <br>
+  <label for="tipo_habilidad">Tipo de habilidad</label>
+  <input type="text" readonly="true" value="$datos.tipo_habilidad" id="tipo_habilidad" name="tipo_habilidad">
+  <br>
+  <label for="preciot">Precio en tienda</label>
+  <input type="text" readonly="true" value="$datos.preciot" id="preciot" name="preciot">
+  <br>
+  <label for="region">Region</label>
+  <input type="text" readonly="true" value="$datos.region" id="region" name="region">
+  <br>
+  <label for="rol">Rol del campeon</label>
+  <input type="text" readonly="true" value="$datos.rol" id="rol" name="rol">
+  <br>
+  <label for="sexo">Sexo</label>
+  <input type="text" readonly="true" value="$datos.sexo" id="sexo" name="sexo">
+  <br>
+  <button type="submit" class="btn btn-primary">Delete</button>
+</form>
